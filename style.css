@@ -1,0 +1,233 @@
+body {
+  margin: 0cm;
+}
+
+.cover {
+  height: 400px;
+  color: white;
+  background-image: url(https://cdn.glitch.me/088219cb-fa62-480d-a528-74b43449f777%2Fchamoy_1.jpeg?v=1637551203450);
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.navbar-brand {
+  width:170px;
+  height:170px;
+}
+
+.navbar {
+  height: 70px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-title {
+  min-height: 3rem;
+}
+
+.card-text {
+  min-heigt: 10rem;
+}
+
+.float-start{
+  margin-right: 2rem;
+}
+
+.mr-3 {
+  margin-right: .5rem;
+}
+
+.stripe-container {
+  display: flex;
+
+}
+
+.nombre-equipo{
+  display: flex;
+}
+
+.contenedor{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+}
+
+.card-2{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card-2:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%) ;
+}
+
+.card-2 img{
+  width: 100%;
+  height: 310px;
+}
+
+.card-2 .contenido{
+  padding: 15px;
+  text-align: center;
+
+}
+
+.card-2 .contenido p{
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card-2 .contenido h3{
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card-2 .contenido a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card-2 .contenido a:hover{
+  background: #2fb4cc;
+  color: #fff;
+}
+
+.avatar{
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.badge {
+  width:80px;
+  height:40px;
+  font-size: 23px;
+}
+
+.stripe-container .card {
+  width: 300px;
+  margin-right: 1rem;
+}
+
+
+.pie-pagina{
+  width: 100%;
+  background-color: #b5b8b1;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: #474b4e;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: purple;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #474b4e;
+  padding: 10px 15px;
+  color: white;
+  text-align: center;
+}
+
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
